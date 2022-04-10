@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="base" version="4">
+  <OBJECT>
+    <ID name="base" mc="Standard.Package" uid="cf494c3b-cd77-435e-b98b-1d34b8a3a4b3"/>
+    <PID name="jugendwerkstatt" mc="Standard.Package" uid="6440e4be-df05-4dc4-9341-da179a3fc9a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[base]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BaseEntity" mc="Standard.Class" uid="a1ee8910-115b-4716-9bcb-42e6510d430d"/>
+        <COMPID name="Image" mc="Standard.Class" uid="a616dca5-573e-44a3-9120-2ee135d3aec2"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="base Class diagram" mc="Standard.ClassDiagram" uid="a52b7dfb-ef3f-46f7-aec8-721bbdb1fbfb"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="elearning" version="4">
+  <OBJECT>
+    <ID name="elearning" mc="Standard.Package" uid="b985a5a6-97df-4317-9306-752ce31d60b5"/>
+    <PID name="jugendwerkstatt" mc="Standard.Package" uid="6440e4be-df05-4dc4-9341-da179a3fc9a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[elearning]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Register" mc="Standard.Class" uid="c7bf9cf8-02ec-47e4-867f-86d06165f9a1"/>
+        <COMPID name="RegisterType" mc="Standard.Class" uid="7fa30d1d-88e3-4409-b8fc-d2a4d13796d6"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="elearning Class diagram" mc="Standard.ClassDiagram" uid="b620efc8-2615-47d6-b7e3-168719a1bca0"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

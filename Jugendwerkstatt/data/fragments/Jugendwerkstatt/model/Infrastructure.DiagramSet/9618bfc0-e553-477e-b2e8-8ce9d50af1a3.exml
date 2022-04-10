@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Jugendwerkstatt" version="4">
+  <OBJECT>
+    <ID name="Jugendwerkstatt" mc="Infrastructure.DiagramSet" uid="9618bfc0-e553-477e-b2e8-8ce9d50af1a3"/>
+    <PID name="Jugendwerkstatt" mc="Standard.Project" uid="57939be9-9e7d-4dc1-a6d8-6bec8d127562"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[Jugendwerkstatt]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

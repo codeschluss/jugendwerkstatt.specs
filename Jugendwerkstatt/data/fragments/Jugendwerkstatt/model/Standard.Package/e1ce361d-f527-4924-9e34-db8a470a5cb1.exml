@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="event" version="4">
+  <OBJECT>
+    <ID name="event" mc="Standard.Package" uid="e1ce361d-f527-4924-9e34-db8a470a5cb1"/>
+    <PID name="jugendwerkstatt" mc="Standard.Package" uid="6440e4be-df05-4dc4-9341-da179a3fc9a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[event]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Event" mc="Standard.Class" uid="cca72b91-9ef9-4c4f-b0eb-a2a1eee91263"/>
+        <COMPID name="Organizer" mc="Standard.Class" uid="5fbbea26-de83-416e-9b8a-0b64e36ae209"/>
+        <COMPID name="Schedule" mc="Standard.Class" uid="350cc54c-c8f4-46a1-a412-cd2079d59dc4"/>
+        <COMPID name="Category" mc="Standard.Class" uid="03d27db5-14a5-4454-9c66-3b4cd97e57da"/>
+        <COMPID name="EventSubscription" mc="Standard.Class" uid="980073b4-5f4b-407b-b8a8-c13a0d902ca7"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="event Class diagram" mc="Standard.ClassDiagram" uid="868fcd2b-b24d-4aae-8eee-a29241550635"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

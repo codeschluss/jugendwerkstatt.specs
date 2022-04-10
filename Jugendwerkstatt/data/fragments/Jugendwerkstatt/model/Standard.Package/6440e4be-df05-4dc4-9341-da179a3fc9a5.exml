@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="datamodel" version="4">
+  <OBJECT>
+    <ID name="datamodel" mc="Standard.Package" uid="6440e4be-df05-4dc4-9341-da179a3fc9a5"/>
+    <PID name="Jugendwerkstatt" mc="Standard.Project" uid="57939be9-9e7d-4dc1-a6d8-6bec8d127562"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[datamodel]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="address" mc="Standard.Package" uid="cd1aff4b-bfc9-4e8d-a64c-efdfcf0ff880"/>
+        <COMPID name="base" mc="Standard.Package" uid="cf494c3b-cd77-435e-b98b-1d34b8a3a4b3"/>
+        <COMPID name="documents" mc="Standard.Package" uid="ad891d1d-3c19-42f7-8fac-1ffb328662f4"/>
+        <COMPID name="event" mc="Standard.Package" uid="e1ce361d-f527-4924-9e34-db8a470a5cb1"/>
+        <COMPID name="page" mc="Standard.Package" uid="87728746-22fc-4e07-8d52-c55701b1c06c"/>
+        <COMPID name="translatables" mc="Standard.Package" uid="6d0a716d-08be-4958-931f-9f2d5c1a0a85"/>
+        <COMPID name="user" mc="Standard.Package" uid="85d9a78c-250f-4bb8-9159-5ede2efaaa78"/>
+        <COMPID name="elearning" mc="Standard.Package" uid="b985a5a6-97df-4317-9306-752ce31d60b5"/>
+        <COMPID name="subscriptions" mc="Standard.Package" uid="8e8d2260-65d0-4383-80aa-47088add8fb9"/>
+        <COMPID name="evaluation" mc="Standard.Package" uid="a88a7008-ec0d-4c70-b057-752ca6176ee5"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

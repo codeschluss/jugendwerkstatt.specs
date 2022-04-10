@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="page" version="4">
+  <OBJECT>
+    <ID name="page" mc="Standard.Package" uid="87728746-22fc-4e07-8d52-c55701b1c06c"/>
+    <PID name="jugendwerkstatt" mc="Standard.Package" uid="6440e4be-df05-4dc4-9341-da179a3fc9a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[page]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Page" mc="Standard.Class" uid="6fc5253d-536b-427e-8ea4-eda5da2bf7c5"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="page Class diagram" mc="Standard.ClassDiagram" uid="087a0779-d909-4725-bd98-f6b9a8e74022"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

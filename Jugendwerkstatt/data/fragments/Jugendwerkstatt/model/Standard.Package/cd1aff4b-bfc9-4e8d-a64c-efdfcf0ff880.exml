@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="address" version="4">
+  <OBJECT>
+    <ID name="address" mc="Standard.Package" uid="cd1aff4b-bfc9-4e8d-a64c-efdfcf0ff880"/>
+    <PID name="jugendwerkstatt" mc="Standard.Package" uid="6440e4be-df05-4dc4-9341-da179a3fc9a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[address]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Address" mc="Standard.Class" uid="c0b8cced-f152-4369-9a76-4ce1b4dfa843"/>
+        <COMPID name="Suburb" mc="Standard.Class" uid="ec633951-e4c0-4c9c-9c97-8327533deee9"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="address Class diagram" mc="Standard.ClassDiagram" uid="3e1fb099-80b8-4851-8ea0-39491b99673c"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="user" version="4">
+  <OBJECT>
+    <ID name="user" mc="Standard.Package" uid="85d9a78c-250f-4bb8-9159-5ede2efaaa78"/>
+    <PID name="jugendwerkstatt" mc="Standard.Package" uid="6440e4be-df05-4dc4-9341-da179a3fc9a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[user]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="User" mc="Standard.Class" uid="023d8509-ed16-426d-bd31-246d6cb000f2"/>
+        <COMPID name="Role" mc="Standard.Class" uid="7a7516b7-ac8c-4e96-b047-88967c908b0a"/>
+        <COMPID name="Appointment" mc="Standard.Class" uid="592ab6d6-250e-4915-8d5c-3aa4ff4b0a12"/>
+        <COMPID name="State" mc="Standard.Class" uid="801fa557-0cdb-4056-a775-aae1b55a176a"/>
+        <COMPID name="Group" mc="Standard.Class" uid="2485f618-094e-4378-825e-df85f9cba770"/>
+        <COMPID name="Course" mc="Standard.Class" uid="2737de2e-5233-4b56-bea3-a91434d8241f"/>
+        <COMPID name="Feedback" mc="Standard.Class" uid="cdaa2193-0039-43be-bb23-94008956a93f"/>
+        <COMPID name="PasswordReset" mc="Standard.Class" uid="e3a1debf-30f7-4cdb-8160-2cfaeed8ad3f"/>
+        <COMPID name="EmailVerification" mc="Standard.Class" uid="61dca23e-5440-4ee5-8217-758b32a73068"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="user Class diagram" mc="Standard.ClassDiagram" uid="3d2537ee-b04f-4796-a63a-0bc35e82d16d"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

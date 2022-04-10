@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DB" version="4">
+  <OBJECT>
+    <ID name="DB" mc="Standard.Node" uid="24c114ce-f300-4e58-8ed4-82eb57c0d6ca"/>
+    <PID name="structure" mc="Standard.Package" uid="b63a4d0b-0ba4-4308-9f2e-dcffb689837b"/>
+    <ATTRIBUTES>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DB]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

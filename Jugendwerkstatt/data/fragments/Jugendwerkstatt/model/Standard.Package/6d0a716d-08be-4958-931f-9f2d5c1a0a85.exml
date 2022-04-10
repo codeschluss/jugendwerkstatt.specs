@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="translatables" version="4">
+  <OBJECT>
+    <ID name="translatables" mc="Standard.Package" uid="6d0a716d-08be-4958-931f-9f2d5c1a0a85"/>
+    <PID name="jugendwerkstatt" mc="Standard.Package" uid="6440e4be-df05-4dc4-9341-da179a3fc9a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[translatables]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Translatable" mc="Standard.Class" uid="61105bac-529b-4694-b340-1851acbcc620"/>
+        <COMPID name="PageTranslatable" mc="Standard.Class" uid="370086c4-87b3-4a0a-80fa-7738b3bc5b58"/>
+        <COMPID name="Language" mc="Standard.Class" uid="c8d9ec88-9d0b-47c8-9626-17020193254f"/>
+        <COMPID name="CategoryTranslatable" mc="Standard.Class" uid="ec2d4b75-29e1-468f-93ad-b3aaed4a2428"/>
+        <COMPID name="EventTranslatable" mc="Standard.Class" uid="bf3e352f-79b3-4c17-8bba-b2ded12265f4"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Translatables Class diagram" mc="Standard.ClassDiagram" uid="06fbd27d-92fb-4a17-8cd6-a78836f2df46"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

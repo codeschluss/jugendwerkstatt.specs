@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="structure" version="4">
+  <OBJECT>
+    <ID name="structure" mc="Standard.Package" uid="b63a4d0b-0ba4-4308-9f2e-dcffb689837b"/>
+    <PID name="Jugendwerkstatt" mc="Standard.Project" uid="57939be9-9e7d-4dc1-a6d8-6bec8d127562"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[structure]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Frontend" mc="Standard.Node" uid="c357b027-27c9-4f2b-9a11-48b3126c92f3"/>
+        <COMPID name="Spring Boot Server" mc="Standard.Node" uid="c51f98a8-9b99-4c33-823e-f7221f46722a"/>
+        <COMPID name="DB" mc="Standard.Node" uid="85f740ff-1218-452f-a211-c716559bfef7"/>
+        <COMPID name="XMPP Server" mc="Standard.Node" uid="c19daae5-561e-4042-9073-62aa27adf127"/>
+        <COMPID name="DB" mc="Standard.Node" uid="24c114ce-f300-4e58-8ed4-82eb57c0d6ca"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="structure Deployment diagram" mc="Standard.DeploymentDiagram" uid="51e5e0db-8156-49fb-86ad-d30db94877bb"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
