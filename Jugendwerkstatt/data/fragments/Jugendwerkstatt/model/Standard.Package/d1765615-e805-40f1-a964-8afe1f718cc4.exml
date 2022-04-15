@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="evaluation" version="4">
+  <OBJECT>
+    <ID name="evaluation" mc="Standard.Package" uid="d1765615-e805-40f1-a964-8afe1f718cc4"/>
+    <PID name="datamodel" mc="Standard.Package" uid="6440e4be-df05-4dc4-9341-da179a3fc9a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[evaluation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Questionnaire" mc="Standard.Class" uid="b7534bc2-f19c-4764-9adc-0a7756e5e1f1"/>
+        <COMPID name="Question" mc="Standard.Class" uid="98fd97a6-ee96-48e4-9ace-d324b5e15f4a"/>
+        <COMPID name="UserQuestion" mc="Standard.Class" uid="77684e83-970e-44bd-9531-9c698d42f255"/>
+        <COMPID name="Assignment" mc="Standard.Class" uid="469c8f00-5619-446e-8c1c-413ac18dbcec"/>
+        <COMPID name="AssignmentState" mc="Standard.Class" uid="b9f16597-113d-4034-a160-4806c431bab6"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="evaluation Class diagram" mc="Standard.ClassDiagram" uid="1bc7e56d-f6e1-4720-bfee-b51993d35938"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

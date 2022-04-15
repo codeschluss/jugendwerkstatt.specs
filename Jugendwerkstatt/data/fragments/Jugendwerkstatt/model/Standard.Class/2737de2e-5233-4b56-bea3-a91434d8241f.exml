@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Course" version="4">
   <OBJECT>
     <ID name="Course" mc="Standard.Class" uid="2737de2e-5233-4b56-bea3-a91434d8241f"/>
-    <PID name="user" mc="Standard.Package" uid="85d9a78c-250f-4bb8-9159-5ede2efaaa78"/>
+    <PID name="group" mc="Standard.Package" uid="5c9f769f-929f-4da2-b771-12f7c933a47b"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>

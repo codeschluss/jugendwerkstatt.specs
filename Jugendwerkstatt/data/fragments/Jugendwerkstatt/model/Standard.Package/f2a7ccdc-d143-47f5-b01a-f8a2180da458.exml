@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="jobad" version="4">
+  <OBJECT>
+    <ID name="jobad" mc="Standard.Package" uid="f2a7ccdc-d143-47f5-b01a-f8a2180da458"/>
+    <PID name="datamodel" mc="Standard.Package" uid="6440e4be-df05-4dc4-9341-da179a3fc9a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[jobad]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Company" mc="Standard.Class" uid="125698da-19b0-45f2-bfcb-f7a673608a93"/>
+        <COMPID name="JobType" mc="Standard.Class" uid="f464ffac-fb6c-4c34-8d1e-529415169de9"/>
+        <COMPID name="JobAd" mc="Standard.Class" uid="9eca485b-1532-483e-aa89-ba0cff43d195"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="jobad Class diagram" mc="Standard.ClassDiagram" uid="8fce616a-cf07-4749-b7ae-04263bf97f91"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

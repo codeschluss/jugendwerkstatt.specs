@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Feedback" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="JobAd" version="4">
   <OBJECT>
-    <ID name="Feedback" mc="Standard.Class" uid="cdaa2193-0039-43be-bb23-94008956a93f"/>
-    <PID name="group" mc="Standard.Package" uid="5c9f769f-929f-4da2-b771-12f7c933a47b"/>
+    <ID name="JobAd" mc="Standard.Class" uid="9eca485b-1532-483e-aa89-ba0cff43d195"/>
+    <PID name="jobad" mc="Standard.Package" uid="f2a7ccdc-d143-47f5-b01a-f8a2180da458"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Feedback]]></ATT>
+      <ATT name="Name"><![CDATA[JobAd]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="rating" mc="Standard.Attribute" uid="b1dea575-4fec-4e4e-b1a9-3c9a1075a9a4"/>
+          <ID name="due_date" mc="Standard.Attribute" uid="ca3488c3-9902-4b89-8adf-392d420124b2"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -31,19 +31,67 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[rating]]></ATT>
+            <ATT name="Name"><![CDATA[due_date]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
-              <FOREIGNID name="integer" mc="Standard.DataType" uid="00000004-0000-0009-0000-000000000000"/>
+              <FOREIGNID name="date" mc="Standard.DataType" uid="00000004-0000-0014-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="start_date" mc="Standard.Attribute" uid="1cfd4d7c-7477-414a-98db-65eff75aaa01"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[start_date]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="date" mc="Standard.DataType" uid="00000004-0000-0014-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="title" mc="Standard.Attribute" uid="d0067a66-1aed-4791-9cf7-9de7c96a4413"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[title]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="user" mc="Standard.AssociationEnd" uid="0a89324c-e467-4496-b44e-5aa381cc0c84"/>
+          <ID name="jobType" mc="Standard.AssociationEnd" uid="e201aafd-5c0f-4433-a845-2f8cbc701cd9"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -56,16 +104,16 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[user]]></ATT>
+            <ATT name="Name"><![CDATA[jobType]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="User" mc="Standard.Class" uid="023d8509-ed16-426d-bd31-246d6cb000f2"/>
+              <ID name="JobType" mc="Standard.Class" uid="f464ffac-fb6c-4c34-8d1e-529415169de9"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="65a4f3d7-2cf7-4bcd-86af-67cc20ecb6a5"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="dc0c5b5a-f1b6-4e37-a63d-963bd09ee041"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -83,11 +131,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="user" mc="Standard.AssociationEnd" uid="0a89324c-e467-4496-b44e-5aa381cc0c84"/>
+                    <COMPID name="jobType" mc="Standard.AssociationEnd" uid="e201aafd-5c0f-4433-a845-2f8cbc701cd9"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="824dab3a-a7df-475f-881d-fd12988b151d"/>
+                      <ID name="" mc="Standard.Association" uid="434a8880-6e04-4a77-b4e3-072e1e41af38"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -99,12 +147,12 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="824dab3a-a7df-475f-881d-fd12988b151d"/>
+              <COMPID name="" mc="Standard.Association" uid="434a8880-6e04-4a77-b4e3-072e1e41af38"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="course" mc="Standard.AssociationEnd" uid="8603c088-0b6b-4f13-b5c0-1610694b1409"/>
+          <ID name="company" mc="Standard.AssociationEnd" uid="1980d18d-9f15-4b3b-906a-fe33e0269b73"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -117,16 +165,16 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[course]]></ATT>
+            <ATT name="Name"><![CDATA[company]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Course" mc="Standard.Class" uid="2737de2e-5233-4b56-bea3-a91434d8241f"/>
+              <ID name="Company" mc="Standard.Class" uid="125698da-19b0-45f2-bfcb-f7a673608a93"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="42a114db-2fbc-497c-86cc-18db26e57c1d"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="126074f0-adea-4e33-aa38-d6e2e6b2aeb8"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -144,11 +192,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="course" mc="Standard.AssociationEnd" uid="8603c088-0b6b-4f13-b5c0-1610694b1409"/>
+                    <COMPID name="company" mc="Standard.AssociationEnd" uid="1980d18d-9f15-4b3b-906a-fe33e0269b73"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="017889eb-24ab-49d5-bbdc-d190199d49d1"/>
+                      <ID name="" mc="Standard.Association" uid="6a5852ce-0d07-47db-b187-4b4a2ae3b8d3"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -160,7 +208,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="017889eb-24ab-49d5-bbdc-d190199d49d1"/>
+              <COMPID name="" mc="Standard.Association" uid="6a5852ce-0d07-47db-b187-4b4a2ae3b8d3"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>

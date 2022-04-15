@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Register" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Link" version="4">
   <OBJECT>
-    <ID name="Register" mc="Standard.Class" uid="c7bf9cf8-02ec-47e4-867f-86d06165f9a1"/>
+    <ID name="Link" mc="Standard.Class" uid="c7bf9cf8-02ec-47e4-867f-86d06165f9a1"/>
     <PID name="elearning" mc="Standard.Package" uid="b985a5a6-97df-4317-9306-752ce31d60b5"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Register]]></ATT>
+      <ATT name="Name"><![CDATA[Link]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -85,7 +85,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="RegisterType" mc="Standard.Class" uid="7fa30d1d-88e3-4409-b8fc-d2a4d13796d6"/>
+              <ID name="LinkCategory" mc="Standard.Class" uid="7fa30d1d-88e3-4409-b8fc-d2a4d13796d6"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>

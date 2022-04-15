@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Group" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="JobType" version="4">
   <OBJECT>
-    <ID name="Group" mc="Standard.Class" uid="2485f618-094e-4378-825e-df85f9cba770"/>
-    <PID name="group" mc="Standard.Package" uid="5c9f769f-929f-4da2-b771-12f7c933a47b"/>
+    <ID name="JobType" mc="Standard.Class" uid="f464ffac-fb6c-4c34-8d1e-529415169de9"/>
+    <PID name="jobad" mc="Standard.Package" uid="f2a7ccdc-d143-47f5-b01a-f8a2180da458"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Group]]></ATT>
+      <ATT name="Name"><![CDATA[JobType]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="name" mc="Standard.Attribute" uid="e780bb9d-92f2-4167-9594-ba96cbf674ad"/>
+          <ID name="name" mc="Standard.Attribute" uid="e5aaf727-5ace-4b01-8e59-e276e77963e2"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>

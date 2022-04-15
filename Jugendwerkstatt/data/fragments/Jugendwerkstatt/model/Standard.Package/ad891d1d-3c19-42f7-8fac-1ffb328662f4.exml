@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="documents" version="4">
   <OBJECT>
     <ID name="documents" mc="Standard.Package" uid="ad891d1d-3c19-42f7-8fac-1ffb328662f4"/>
-    <PID name="jugendwerkstatt" mc="Standard.Package" uid="6440e4be-df05-4dc4-9341-da179a3fc9a5"/>
+    <PID name="datamodel" mc="Standard.Package" uid="6440e4be-df05-4dc4-9341-da179a3fc9a5"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
       <ATT name="IsAbstract">false</ATT>
@@ -15,7 +15,6 @@
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
         <COMPID name="Document" mc="Standard.Class" uid="fdc212a5-482a-4b78-992b-c686cfa56345"/>
-        <COMPID name="DocumentType" mc="Standard.Class" uid="67b65a1f-42e1-473a-ad35-a492c331fde1"/>
         <COMPID name="Template" mc="Standard.Class" uid="d460e082-0a95-4061-bd87-86a007dcdd1b"/>
         <COMPID name="UserTemplate" mc="Standard.Class" uid="70d58765-5f48-4c8e-b670-6e46d00a5e76"/>
         <COMPID name="TemplateType" mc="Standard.Class" uid="866ea138-4502-49c6-a5f5-69c11e3f754b"/>
