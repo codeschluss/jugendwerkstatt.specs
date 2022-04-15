@@ -12,6 +12,7 @@
       <COMP relation="Model">
         <COMPID name="datamodel" mc="Standard.Package" uid="6440e4be-df05-4dc4-9341-da179a3fc9a5"/>
         <COMPID name="structure" mc="Standard.Package" uid="b63a4d0b-0ba4-4308-9f2e-dcffb689837b"/>
+        <COMPID name="dynamic" mc="Standard.Package" uid="5cbc61f5-a07d-4e08-a141-150333082854"/>
       </COMP>
       <COMP relation="DiagramRoot">
         <COMPID name="Jugendwerkstatt" mc="Infrastructure.DiagramSet" uid="9618bfc0-e553-477e-b2e8-8ce9d50af1a3"/>
