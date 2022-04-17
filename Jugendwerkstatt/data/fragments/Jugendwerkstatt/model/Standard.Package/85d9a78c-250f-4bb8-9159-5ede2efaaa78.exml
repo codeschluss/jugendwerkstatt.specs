@@ -15,8 +15,6 @@
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
         <COMPID name="Role" mc="Standard.Class" uid="7a7516b7-ac8c-4e96-b047-88967c908b0a"/>
-        <COMPID name="Appointment" mc="Standard.Class" uid="592ab6d6-250e-4915-8d5c-3aa4ff4b0a12"/>
-        <COMPID name="State" mc="Standard.Class" uid="801fa557-0cdb-4056-a775-aae1b55a176a"/>
         <COMPID name="PasswordReset" mc="Standard.Class" uid="e3a1debf-30f7-4cdb-8160-2cfaeed8ad3f"/>
         <COMPID name="EmailVerification" mc="Standard.Class" uid="61dca23e-5440-4ee5-8217-758b32a73068"/>
         <COMPID name="User" mc="Standard.Class" uid="023d8509-ed16-426d-bd31-246d6cb000f2"/>
