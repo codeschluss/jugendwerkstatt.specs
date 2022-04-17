@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Image" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Media" version="4">
   <OBJECT>
-    <ID name="Image" mc="Standard.Class" uid="a616dca5-573e-44a3-9120-2ee135d3aec2"/>
+    <ID name="Media" mc="Standard.Class" uid="a616dca5-573e-44a3-9120-2ee135d3aec2"/>
     <PID name="base" mc="Standard.Package" uid="cf494c3b-cd77-435e-b98b-1d34b8a3a4b3"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Image]]></ATT>
+      <ATT name="Name"><![CDATA[Media]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
