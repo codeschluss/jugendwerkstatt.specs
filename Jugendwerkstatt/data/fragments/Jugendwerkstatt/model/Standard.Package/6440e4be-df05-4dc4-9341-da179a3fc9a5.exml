@@ -20,6 +20,7 @@
         <COMPID name="elearning" mc="Standard.Package" uid="b985a5a6-97df-4317-9306-752ce31d60b5"/>
         <COMPID name="evaluation" mc="Standard.Package" uid="d1765615-e805-40f1-a964-8afe1f718cc4"/>
         <COMPID name="event" mc="Standard.Package" uid="e1ce361d-f527-4924-9e34-db8a470a5cb1"/>
+        <COMPID name="favorite" mc="Standard.Package" uid="f7990615-d2f3-42f3-9da8-7964cce97bf2"/>
         <COMPID name="group" mc="Standard.Package" uid="5c9f769f-929f-4da2-b771-12f7c933a47b"/>
         <COMPID name="jobad" mc="Standard.Package" uid="f2a7ccdc-d143-47f5-b01a-f8a2180da458"/>
         <COMPID name="page" mc="Standard.Package" uid="87728746-22fc-4e07-8d52-c55701b1c06c"/>
