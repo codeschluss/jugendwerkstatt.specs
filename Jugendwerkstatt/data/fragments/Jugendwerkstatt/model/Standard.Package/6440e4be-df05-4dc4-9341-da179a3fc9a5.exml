@@ -27,6 +27,7 @@
         <COMPID name="translatables" mc="Standard.Package" uid="6d0a716d-08be-4958-931f-9f2d5c1a0a85"/>
         <COMPID name="user" mc="Standard.Package" uid="85d9a78c-250f-4bb8-9159-5ede2efaaa78"/>
         <COMPID name="subscriptions" mc="Standard.Package" uid="8e8d2260-65d0-4383-80aa-47088add8fb9"/>
+        <COMPID name="message" mc="Standard.Package" uid="64300fb7-8a48-4dab-910e-d07ab29fe626"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

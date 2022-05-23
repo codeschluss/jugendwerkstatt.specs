@@ -1,9 +1,10 @@
-#Sun Apr 24 21:40:19 CEST 2022
+#Mon May 23 20:01:49 CEST 2022
 org.modelio.app.diagram.editor.OpenedDiagrams4='event Class diagram' {868fcd2b-b24d-4aae-8eee-a29241550635} Standard.ClassDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams3='user Class diagram' {3d2537ee-b04f-4796-a63a-0bc35e82d16d} Standard.ClassDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams2='page Class diagram' {087a0779-d909-4725-bd98-f6b9a8e74022} Standard.ClassDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams1='base Class diagram' {a52b7dfb-ef3f-46f7-aec8-721bbdb1fbfb} Standard.ClassDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams0='Translatables Class diagram' {06fbd27d-92fb-4a17-8cd6-a78836f2df46} Standard.ClassDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams15='message Class diagram' {7f8aa602-8a92-4f0c-8014-866f08b3d757} Standard.ClassDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams14='favorite Class diagram' {8aa78a68-3e30-4e5b-9657-a18f43bc4c5c} Standard.ClassDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams13='subscriptions Class diagram' {a6fac078-5a92-416b-9b17-cd66dc215f17} Standard.ClassDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams12='refresh access mechanism' {ce53e94f-1f5f-4403-b689-b2a62bdcb94f} Standard.ActivityDiagram

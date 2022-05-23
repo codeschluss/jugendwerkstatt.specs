@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="message" version="4">
+  <OBJECT>
+    <ID name="message" mc="Standard.Package" uid="64300fb7-8a48-4dab-910e-d07ab29fe626"/>
+    <PID name="datamodel" mc="Standard.Package" uid="6440e4be-df05-4dc4-9341-da179a3fc9a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[message]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Chat" mc="Standard.Class" uid="42af396e-11c2-4235-949d-3c7a5a2e2b5a"/>
+        <COMPID name="Participant" mc="Standard.Class" uid="a7e2e7a4-5f78-4a79-9fcf-b16096f45a7c"/>
+        <COMPID name="Message" mc="Standard.Class" uid="9e7144ba-8620-4109-a729-e3670b7ca7c8"/>
+        <COMPID name="ReadBy" mc="Standard.Class" uid="9407a28a-e2fd-4abf-8c1b-e00f87a2c143"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="message Class diagram" mc="Standard.ClassDiagram" uid="7f8aa602-8a92-4f0c-8014-866f08b3d757"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
