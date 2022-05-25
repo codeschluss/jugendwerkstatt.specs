@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="subscriptions" version="4">
   <OBJECT>
     <ID name="subscriptions" mc="Standard.Package" uid="8e8d2260-65d0-4383-80aa-47088add8fb9"/>
-    <PID name="jugendwerkstatt" mc="Standard.Package" uid="6440e4be-df05-4dc4-9341-da179a3fc9a5"/>
+    <PID name="datamodel" mc="Standard.Package" uid="6440e4be-df05-4dc4-9341-da179a3fc9a5"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
       <ATT name="IsAbstract">false</ATT>
@@ -16,6 +16,7 @@
       <COMP relation="OwnedElement">
         <COMPID name="Subscription" mc="Standard.Class" uid="1c4ff01d-6234-46d1-9c47-c75a7bc6cb4b"/>
         <COMPID name="SubscriptionType" mc="Standard.Class" uid="ba98a86a-74ff-4c64-8487-39b6f55deb8a"/>
+        <COMPID name="Notifications" mc="Standard.Class" uid="45c29d42-2006-4929-bba8-46600e164b0e"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="subscriptions Class diagram" mc="Standard.ClassDiagram" uid="a6fac078-5a92-416b-9b17-cd66dc215f17"/>

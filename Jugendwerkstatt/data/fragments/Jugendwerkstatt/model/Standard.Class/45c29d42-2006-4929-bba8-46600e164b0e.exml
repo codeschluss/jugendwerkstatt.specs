@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Subscription" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Notification" version="4">
   <OBJECT>
-    <ID name="Subscription" mc="Standard.Class" uid="1c4ff01d-6234-46d1-9c47-c75a7bc6cb4b"/>
+    <ID name="Notification" mc="Standard.Class" uid="45c29d42-2006-4929-bba8-46600e164b0e"/>
     <PID name="subscriptions" mc="Standard.Package" uid="8e8d2260-65d0-4383-80aa-47088add8fb9"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Subscription]]></ATT>
+      <ATT name="Name"><![CDATA[Notification]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="deviceToken" mc="Standard.Attribute" uid="63e342c9-84a5-4476-bb24-1e4ea140826a"/>
+          <ID name="title" mc="Standard.Attribute" uid="bd251d3d-4ae0-4881-94ff-27fd84b86d3d"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -31,7 +31,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[deviceToken]]></ATT>
+            <ATT name="Name"><![CDATA[title]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -40,13 +40,12 @@
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
-      </COMP>
-      <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="subscriptionType" mc="Standard.AssociationEnd" uid="6f18ada8-d010-497b-a1fe-fe93ec555652"/>
+          <ID name="content" mc="Standard.Attribute" uid="84136161-8268-469b-855f-bf33f78f551e"/>
           <ATTRIBUTES>
-            <ATT name="Aggregation">KindIsAssociation</ATT>
-            <ATT name="IsChangeable">true</ATT>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
             <ATT name="Changeable">ReadWrite</ATT>
             <ATT name="IsDerived">false</ATT>
             <ATT name="IsOrdered">false</ATT>
@@ -56,55 +55,43 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[subscriptionType]]></ATT>
+            <ATT name="Name"><![CDATA[content]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
-            <LINK relation="Target">
-              <ID name="SubscriptionType" mc="Standard.Class" uid="ba98a86a-74ff-4c64-8487-39b6f55deb8a"/>
+            <LINK relation="Type">
+              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
             </LINK>
-            <COMP relation="Opposite">
-              <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="30aadebc-352b-4ac3-b961-cd5250b8e699"/>
-                <ATTRIBUTES>
-                  <ATT name="Aggregation">KindIsAssociation</ATT>
-                  <ATT name="IsChangeable">true</ATT>
-                  <ATT name="Changeable">ReadWrite</ATT>
-                  <ATT name="IsDerived">false</ATT>
-                  <ATT name="IsOrdered">false</ATT>
-                  <ATT name="IsUnique">false</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
-                  <ATT name="Visibility">Public</ATT>
-                  <ATT name="IsClass">false</ATT>
-                  <ATT name="IsAbstract">false</ATT>
-                  <ATT name="Name"></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <COMP relation="Opposite">
-                    <COMPID name="subscriptionType" mc="Standard.AssociationEnd" uid="6f18ada8-d010-497b-a1fe-fe93ec555652"/>
-                  </COMP>
-                  <COMP relation="Association">
-                    <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="c195273c-4f17-4377-9249-32a9d60be9b1"/>
-                      <ATTRIBUTES>
-                        <ATT name="Name"></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES></DEPENDENCIES>
-                    </OBJECT>
-                  </COMP>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-            <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="c195273c-4f17-4377-9249-32a9d60be9b1"/>
-            </COMP>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="user" mc="Standard.AssociationEnd" uid="595bd3b6-65c9-4458-9bb8-90908a0df609"/>
+          <ID name="read" mc="Standard.Attribute" uid="200e66d6-1fbe-47cb-9619-f7dde90f352c"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[read]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="boolean" mc="Standard.DataType" uid="00000004-0000-0005-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedEnd">
+        <OBJECT>
+          <ID name="user" mc="Standard.AssociationEnd" uid="c9172325-ac65-4c23-8197-b49ae9098e14"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -126,7 +113,7 @@
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="fd143fd1-c0cd-4f2b-845a-f0fe8daab809"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="d1e767d2-df50-43bf-a75e-3b4aebfcc296"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -144,11 +131,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="user" mc="Standard.AssociationEnd" uid="595bd3b6-65c9-4458-9bb8-90908a0df609"/>
+                    <COMPID name="user" mc="Standard.AssociationEnd" uid="c9172325-ac65-4c23-8197-b49ae9098e14"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="f093eabd-fb2d-4780-9f7b-7c8e4b061284"/>
+                      <ID name="" mc="Standard.Association" uid="8ca22e34-16f9-4987-a26c-1884ee2a3c41"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -160,7 +147,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="f093eabd-fb2d-4780-9f7b-7c8e4b061284"/>
+              <COMPID name="" mc="Standard.Association" uid="8ca22e34-16f9-4987-a26c-1884ee2a3c41"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
