@@ -327,7 +327,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Course" mc="Standard.Class" uid="2737de2e-5233-4b56-bea3-a91434d8241f"/>
+              <ID name="Group" mc="Standard.Class" uid="2485f618-094e-4378-825e-df85f9cba770"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
