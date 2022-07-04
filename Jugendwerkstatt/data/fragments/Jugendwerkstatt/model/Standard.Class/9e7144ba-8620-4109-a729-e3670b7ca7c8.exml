@@ -165,7 +165,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="user" mc="Standard.AssociationEnd" uid="380a6163-f722-4f9c-bdf9-b867dc71f7de"/>
+          <ID name="participant" mc="Standard.AssociationEnd" uid="380a6163-f722-4f9c-bdf9-b867dc71f7de"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -178,12 +178,12 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[user]]></ATT>
+            <ATT name="Name"><![CDATA[participant]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="User" mc="Standard.Class" uid="023d8509-ed16-426d-bd31-246d6cb000f2"/>
+              <ID name="Participant" mc="Standard.Class" uid="a7e2e7a4-5f78-4a79-9fcf-b16096f45a7c"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
@@ -205,7 +205,7 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="user" mc="Standard.AssociationEnd" uid="380a6163-f722-4f9c-bdf9-b867dc71f7de"/>
+                    <COMPID name="participant" mc="Standard.AssociationEnd" uid="380a6163-f722-4f9c-bdf9-b867dc71f7de"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>

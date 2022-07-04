@@ -18,6 +18,7 @@
         <COMPID name="Participant" mc="Standard.Class" uid="a7e2e7a4-5f78-4a79-9fcf-b16096f45a7c"/>
         <COMPID name="Message" mc="Standard.Class" uid="9e7144ba-8620-4109-a729-e3670b7ca7c8"/>
         <COMPID name="ReadBy" mc="Standard.Class" uid="9407a28a-e2fd-4abf-8c1b-e00f87a2c143"/>
+        <COMPID name="Call" mc="Standard.Class" uid="94b981d4-e09d-4982-9dbf-b3a1d01edcba"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="message Class diagram" mc="Standard.ClassDiagram" uid="7f8aa602-8a92-4f0c-8014-866f08b3d757"/>
