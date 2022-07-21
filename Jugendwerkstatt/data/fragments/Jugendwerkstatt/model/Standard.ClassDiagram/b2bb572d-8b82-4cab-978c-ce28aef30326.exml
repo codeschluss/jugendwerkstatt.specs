@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Check authorization" version="4">
+  <OBJECT>
+    <ID name="Check authorization" mc="Standard.ClassDiagram" uid="b2bb572d-8b82-4cab-978c-ce28aef30326"/>
+    <PID name="dynamic" mc="Standard.Package" uid="5cbc61f5-a07d-4e08-a141-150333082854"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">1</ATT>
+      <ATT name="UiData"><![CDATA[eJztU9tOAjEQ/ZVm3ym4eMEEIbpriHEVAmrik5ndjljthbRF2b+3y4ICCkFj9MWntjM9M2dmzjTbEynIMxrLtToKdmgtIO1Ws5s+YuYIZ94UEJeP8CjQZkilZii4pmMpqHXg+BPjMDQgKTLutKEoUKJytvRmc29HDqbvuHwHRMKjNndveWtBq9kzeoTG5USB9OkE5HrsYnDgfTcgxjjjocZCBNVWszoHfIAOXC4wWKoi/KyKOTtb/Lc00wZpid2CXwQ2A4Zsnux04vp4v2WWSx9ihiQ4cXF65jlOr8XlokSSOp2sFFotS9pUvEEBDpnnstK3i8JEngtL0SJQDAyjkQBrZ2MhaZimewchqzTSRljZzSCtHB40skqGYQPwvl6rh/ubW++juXOlX1QCKYoVBgNnuBp6Y3Vq3ViFFnimIi1H2nLnZ/D9UNEDF8xgESHhtujd7FiLSLh6stt/PxnGBl48nQRyNMu6q2/S3duysBJvqSgi+G1ZCvg7y/I11N+qjLM1cog7NDm+Pe3fnRxH551+9/oy/hmFbLF4izN7V8+CFnb/tfAnWrjq9n5aBGtdr0EujHc=]]></ATT>
+      <ATT name="PreviewData"><![CDATA[data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAIAAAAmdTLBAAAAGElEQVR4nGP4TxlgGNU/qn9U/6j+EaofAB8cJiE1IQRUAAAAAElFTkSuQmCC]]></ATT>
+      <ATT name="Name"><![CDATA[Check authorization]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="d998306d-ae85-43eb-8159-1399440a4b75"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

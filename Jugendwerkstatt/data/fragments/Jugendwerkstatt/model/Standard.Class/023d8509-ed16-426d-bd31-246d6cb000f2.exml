@@ -309,7 +309,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="group" mc="Standard.AssociationEnd" uid="e28c91e7-b365-4fa1-b2e2-dd081ec559f2"/>
+          <ID name="course" mc="Standard.AssociationEnd" uid="e28c91e7-b365-4fa1-b2e2-dd081ec559f2"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -322,12 +322,12 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[group]]></ATT>
+            <ATT name="Name"><![CDATA[course]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Group" mc="Standard.Class" uid="2485f618-094e-4378-825e-df85f9cba770"/>
+              <ID name="Course" mc="Standard.Class" uid="2737de2e-5233-4b56-bea3-a91434d8241f"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
@@ -349,7 +349,7 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="group" mc="Standard.AssociationEnd" uid="e28c91e7-b365-4fa1-b2e2-dd081ec559f2"/>
+                    <COMPID name="course" mc="Standard.AssociationEnd" uid="e28c91e7-b365-4fa1-b2e2-dd081ec559f2"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
