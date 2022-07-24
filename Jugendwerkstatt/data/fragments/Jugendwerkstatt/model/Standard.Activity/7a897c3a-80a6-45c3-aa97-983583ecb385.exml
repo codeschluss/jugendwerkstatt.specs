@@ -233,6 +233,63 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
               </OBJECT>
+              <OBJECT>
+                <ID name="Send Init" mc="Standard.OpaqueAction" uid="cf9148d6-1a83-4a13-aacc-fa7eca4eb56f"/>
+                <ATTRIBUTES>
+                  <ATT name="Body"><![CDATA[send token of current user]]></ATT>
+                  <ATT name="IsMultipleInstance">false</ATT>
+                  <ATT name="IsCompensation">false</ATT>
+                  <ATT name="Name"><![CDATA[Send Init]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Outgoing">
+                    <OBJECT>
+                      <ID name="ControlFlow" mc="Standard.ControlFlow" uid="e2ecc0e2-626a-448c-992b-f96bf84fe9bd"/>
+                      <ATTRIBUTES>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="Weight"><![CDATA[1]]></ATT>
+                        <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Check authorization" mc="Standard.StructuredActivityNode" uid="267ce847-b9a7-4ced-ab8e-d85b3e972b58"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Initial Node" mc="Standard.InitialNode" uid="b5e0070e-ff82-4d1f-bbd9-a4cfe6486635"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Initial Node]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Outgoing">
+                    <OBJECT>
+                      <ID name="ControlFlow" mc="Standard.ControlFlow" uid="a8a7a136-e16d-4333-b963-1fbdf3673e4f"/>
+                      <ATTRIBUTES>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="Weight"><![CDATA[1]]></ATT>
+                        <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Send Init" mc="Standard.OpaqueAction" uid="cf9148d6-1a83-4a13-aacc-fa7eca4eb56f"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
@@ -833,7 +890,7 @@
                             <DEPENDENCIES>
                               <LINK relation="Target">
                                 <REFOBJ>
-                                  <ID name="Show call offer" mc="Standard.OpaqueAction" uid="ba29cc3f-49cc-4ffd-a4d3-12b0760d7d61"/>
+                                  <ID name="Show call offer" mc="Standard.OpaqueAction" uid="9c396636-ef31-470c-9a41-29a3ce31ad68"/>
                                 </REFOBJ>
                               </LINK>
                             </DEPENDENCIES>
@@ -1009,7 +1066,7 @@
                             <DEPENDENCIES>
                               <LINK relation="Target">
                                 <REFOBJ>
-                                  <ID name="Send message to stored sessions" mc="Standard.OpaqueAction" uid="14e0a6ac-2282-4155-b487-38d34301580f"/>
+                                  <ID name="Create VideoCall entity" mc="Standard.OpaqueAction" uid="f84d62ca-6306-4be4-8093-5572972d7f84"/>
                                 </REFOBJ>
                               </LINK>
                             </DEPENDENCIES>
@@ -1114,6 +1171,36 @@
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="Create VideoCall entity" mc="Standard.OpaqueAction" uid="f84d62ca-6306-4be4-8093-5572972d7f84"/>
+                      <ATTRIBUTES>
+                        <ATT name="Body"></ATT>
+                        <ATT name="IsMultipleInstance">false</ATT>
+                        <ATT name="IsCompensation">false</ATT>
+                        <ATT name="Name"><![CDATA[Create VideoCall entity]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Outgoing">
+                          <OBJECT>
+                            <ID name="ControlFlow" mc="Standard.ControlFlow" uid="9e04d8a2-ba7d-4f8e-ab8a-23de04380dd0"/>
+                            <ATTRIBUTES>
+                              <ATT name="Guard"></ATT>
+                              <ATT name="Weight"><![CDATA[1]]></ATT>
+                              <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <LINK relation="Target">
+                                <REFOBJ>
+                                  <ID name="Send message to stored sessions" mc="Standard.OpaqueAction" uid="14e0a6ac-2282-4155-b487-38d34301580f"/>
+                                </REFOBJ>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
                     </OBJECT>
                   </COMP>
                 </DEPENDENCIES>
@@ -1283,7 +1370,7 @@
                             <DEPENDENCIES>
                               <LINK relation="Target">
                                 <REFOBJ>
-                                  <ID name="Create VideoCall entity" mc="Standard.OpaqueAction" uid="f84d62ca-6306-4be4-8093-5572972d7f84"/>
+                                  <ID name="Send message to stored sessions" mc="Standard.OpaqueAction" uid="5def2ee4-e7e4-482b-bca6-ed7b5e5779b7"/>
                                 </REFOBJ>
                               </LINK>
                             </DEPENDENCIES>
@@ -1330,36 +1417,6 @@
                               <LINK relation="Target">
                                 <REFOBJ>
                                   <ID name="Connect" mc="Standard.OpaqueAction" uid="c68e708d-422f-434d-9778-0c3ff12a264b"/>
-                                </REFOBJ>
-                              </LINK>
-                            </DEPENDENCIES>
-                          </OBJECT>
-                        </COMP>
-                      </DEPENDENCIES>
-                    </OBJECT>
-                    <OBJECT>
-                      <ID name="Create VideoCall entity" mc="Standard.OpaqueAction" uid="f84d62ca-6306-4be4-8093-5572972d7f84"/>
-                      <ATTRIBUTES>
-                        <ATT name="Body"></ATT>
-                        <ATT name="IsMultipleInstance">false</ATT>
-                        <ATT name="IsCompensation">false</ATT>
-                        <ATT name="Name"><![CDATA[Create VideoCall entity]]></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES>
-                        <COMP relation="Outgoing">
-                          <OBJECT>
-                            <ID name="ControlFlow" mc="Standard.ControlFlow" uid="6d5c7f96-ff15-4936-8d60-31ef728e4a08"/>
-                            <ATTRIBUTES>
-                              <ATT name="Guard"></ATT>
-                              <ATT name="Weight"><![CDATA[1]]></ATT>
-                              <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
-                              <ATT name="status">1970354901745664</ATT>
-                            </ATTRIBUTES>
-                            <DEPENDENCIES>
-                              <LINK relation="Target">
-                                <REFOBJ>
-                                  <ID name="Send message to stored sessions" mc="Standard.OpaqueAction" uid="5def2ee4-e7e4-482b-bca6-ed7b5e5779b7"/>
                                 </REFOBJ>
                               </LINK>
                             </DEPENDENCIES>
@@ -1662,7 +1719,7 @@
                       <DEPENDENCIES>
                         <LINK relation="Target">
                           <REFOBJ>
-                            <ID name="open Websocket" mc="Standard.OpaqueAction" uid="cba5b586-c725-40c4-bf58-8503013be181"/>
+                            <ID name="Open websocket" mc="Standard.OpaqueAction" uid="cba5b586-c725-40c4-bf58-8503013be181"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
@@ -1671,12 +1728,12 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="open Websocket" mc="Standard.OpaqueAction" uid="cba5b586-c725-40c4-bf58-8503013be181"/>
+                <ID name="Open websocket" mc="Standard.OpaqueAction" uid="cba5b586-c725-40c4-bf58-8503013be181"/>
                 <ATTRIBUTES>
                   <ATT name="Body"></ATT>
                   <ATT name="IsMultipleInstance">false</ATT>
                   <ATT name="IsCompensation">false</ATT>
-                  <ATT name="Name"><![CDATA[open Websocket]]></ATT>
+                  <ATT name="Name"><![CDATA[Open websocket]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -1829,36 +1886,6 @@
                         <LINK relation="Target">
                           <REFOBJ>
                             <ID name="Activity Final Node" mc="Standard.ActivityFinalNode" uid="6b0ea28e-fc4d-4bdc-a363-161cd85ed152"/>
-                          </REFOBJ>
-                        </LINK>
-                      </DEPENDENCIES>
-                    </OBJECT>
-                  </COMP>
-                </DEPENDENCIES>
-              </OBJECT>
-              <OBJECT>
-                <ID name="Show call offer" mc="Standard.OpaqueAction" uid="ba29cc3f-49cc-4ffd-a4d3-12b0760d7d61"/>
-                <ATTRIBUTES>
-                  <ATT name="Body"></ATT>
-                  <ATT name="IsMultipleInstance">false</ATT>
-                  <ATT name="IsCompensation">false</ATT>
-                  <ATT name="Name"><![CDATA[Show call offer]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <COMP relation="Outgoing">
-                    <OBJECT>
-                      <ID name="ControlFlow" mc="Standard.ControlFlow" uid="97036692-0e9c-4741-891b-627fdc21f0bf"/>
-                      <ATTRIBUTES>
-                        <ATT name="Guard"><![CDATA[accept?]]></ATT>
-                        <ATT name="Weight"><![CDATA[1]]></ATT>
-                        <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES>
-                        <LINK relation="Target">
-                          <REFOBJ>
-                            <ID name="Decision-Merge" mc="Standard.DecisionMergeNode" uid="c705090d-7a51-4e7f-a821-724eb8656b16"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
