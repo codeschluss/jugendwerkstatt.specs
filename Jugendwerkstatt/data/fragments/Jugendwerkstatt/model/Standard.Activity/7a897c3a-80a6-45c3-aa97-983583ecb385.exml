@@ -931,7 +931,7 @@
                             <DEPENDENCIES>
                               <LINK relation="Target">
                                 <REFOBJ>
-                                  <ID name="Retrieve users by chat" mc="Standard.OpaqueAction" uid="dc33ac08-ab8d-4e1e-b18d-52889d6b3b2c"/>
+                                  <ID name="Create VideoCall entity" mc="Standard.OpaqueAction" uid="f84d62ca-6306-4be4-8093-5572972d7f84"/>
                                 </REFOBJ>
                               </LINK>
                             </DEPENDENCIES>
@@ -1010,22 +1010,6 @@
                       <DEPENDENCIES>
                         <COMP relation="Outgoing">
                           <OBJECT>
-                            <ID name="ControlFlow" mc="Standard.ControlFlow" uid="1d3e336f-1b1f-4607-8104-b9c69545e62a"/>
-                            <ATTRIBUTES>
-                              <ATT name="Guard"><![CDATA[yes]]></ATT>
-                              <ATT name="Weight"><![CDATA[1]]></ATT>
-                              <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
-                              <ATT name="status">1970354901745664</ATT>
-                            </ATTRIBUTES>
-                            <DEPENDENCIES>
-                              <LINK relation="Target">
-                                <REFOBJ>
-                                  <ID name="Remove tokens from offer " mc="Standard.OpaqueAction" uid="7daeba79-1b33-42c5-81b1-e66d3b8def27"/>
-                                </REFOBJ>
-                              </LINK>
-                            </DEPENDENCIES>
-                          </OBJECT>
-                          <OBJECT>
                             <ID name="ControlFlow" mc="Standard.ControlFlow" uid="93b1c7fd-37c7-4e3e-9803-188c2dcefe72"/>
                             <ATTRIBUTES>
                               <ATT name="Guard"><![CDATA[no]]></ATT>
@@ -1037,6 +1021,22 @@
                               <LINK relation="Target">
                                 <REFOBJ>
                                   <ID name="Store offer message to pending offers" mc="Standard.OpaqueAction" uid="bbbef963-1d7f-49bd-8b02-c31bb2a73fdd"/>
+                                </REFOBJ>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <OBJECT>
+                            <ID name="ControlFlow" mc="Standard.ControlFlow" uid="8a33e095-d190-448e-be76-e382e8489810"/>
+                            <ATTRIBUTES>
+                              <ATT name="Guard"><![CDATA[yes]]></ATT>
+                              <ATT name="Weight"><![CDATA[1]]></ATT>
+                              <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <LINK relation="Target">
+                                <REFOBJ>
+                                  <ID name="Remove tokens from offer " mc="Standard.OpaqueAction" uid="7daeba79-1b33-42c5-81b1-e66d3b8def27"/>
                                 </REFOBJ>
                               </LINK>
                             </DEPENDENCIES>
@@ -1056,7 +1056,7 @@
                       <DEPENDENCIES>
                         <COMP relation="Outgoing">
                           <OBJECT>
-                            <ID name="ControlFlow" mc="Standard.ControlFlow" uid="8a33e095-d190-448e-be76-e382e8489810"/>
+                            <ID name="ControlFlow" mc="Standard.ControlFlow" uid="9e04d8a2-ba7d-4f8e-ab8a-23de04380dd0"/>
                             <ATTRIBUTES>
                               <ATT name="Guard"></ATT>
                               <ATT name="Weight"><![CDATA[1]]></ATT>
@@ -1066,7 +1066,7 @@
                             <DEPENDENCIES>
                               <LINK relation="Target">
                                 <REFOBJ>
-                                  <ID name="Create VideoCall entity" mc="Standard.OpaqueAction" uid="f84d62ca-6306-4be4-8093-5572972d7f84"/>
+                                  <ID name="Send message to stored sessions" mc="Standard.OpaqueAction" uid="14e0a6ac-2282-4155-b487-38d34301580f"/>
                                 </REFOBJ>
                               </LINK>
                             </DEPENDENCIES>
@@ -1184,7 +1184,7 @@
                       <DEPENDENCIES>
                         <COMP relation="Outgoing">
                           <OBJECT>
-                            <ID name="ControlFlow" mc="Standard.ControlFlow" uid="9e04d8a2-ba7d-4f8e-ab8a-23de04380dd0"/>
+                            <ID name="ControlFlow" mc="Standard.ControlFlow" uid="1d3e336f-1b1f-4607-8104-b9c69545e62a"/>
                             <ATTRIBUTES>
                               <ATT name="Guard"></ATT>
                               <ATT name="Weight"><![CDATA[1]]></ATT>
@@ -1194,7 +1194,7 @@
                             <DEPENDENCIES>
                               <LINK relation="Target">
                                 <REFOBJ>
-                                  <ID name="Send message to stored sessions" mc="Standard.OpaqueAction" uid="14e0a6ac-2282-4155-b487-38d34301580f"/>
+                                  <ID name="Retrieve users by chat" mc="Standard.OpaqueAction" uid="dc33ac08-ab8d-4e1e-b18d-52889d6b3b2c"/>
                                 </REFOBJ>
                               </LINK>
                             </DEPENDENCIES>
